@@ -47,8 +47,8 @@ $characters = $player, $enemy_1, $enemy_2
 
 # Iterate characters
 $characters.ForEach({
-    $PSItem | Add-Member -MemberType ScriptMethod -Name "Attack" -Value $attack
-    $PSItem | Add-Member -MemberType ScriptMethod -Name "Damage" -Value $damage
+    $PSItem | Add-Member -MemberType ScriptMethod -Name "Attack" -Value $attack -Force
+    $PSItem | Add-Member -MemberType ScriptMethod -Name "Damage" -Value $damage -Force
 })
 
 # Sample Battle Scenario
