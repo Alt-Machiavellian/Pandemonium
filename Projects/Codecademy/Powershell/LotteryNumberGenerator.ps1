@@ -10,7 +10,6 @@ Function LotteryDraw{
   param ($min = 1, $max = 50, $quantity = 5)
   for($i = 0; $i -lt $quantity; $i++) {
     Get-Random -Minimum $min -Maximum $max
-    Write-Host "Lottery Generator"
   }
 }
 
