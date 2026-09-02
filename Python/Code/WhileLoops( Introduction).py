@@ -12,12 +12,9 @@
 #   print(" ----- ")
 # print("While Loop ended")
 
-# Your code below:
-
+# Your code below: 
 countdown = 10
-while countdown >= 10:
-  print("We have liftoff")
-  countdown += 1
-
-while countdown >= 0:
-  print()
+while countdown >= 0: 
+  print(countdown)
+  countdown -= 1 
+print("We have liftoff!")
